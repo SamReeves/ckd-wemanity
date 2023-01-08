@@ -52,3 +52,5 @@ Run the preprocessing.ipynb notebook and examine any errors. Then, continue with
  * presentation.ipynb -- Jupyter notebook containing analytical information
  * LICENSE -- Software license, go ahead and use it
  * arffToCsv.py -- File converter from github user haloboy777
+ * predictions.ipynb -- Jupyter notebook for generating a prediction model
+ * finalized_model.sav -- Python pickle of Naive Bayes Classifier

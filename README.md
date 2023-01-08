@@ -34,7 +34,7 @@ Start with the following, from the root directory:
 
 ### if CKD_clean.csv is present
 
-Enjoy presentation.ipynb
+Enjoy analysis.ipynb
 
 ### if CKD_clean.csv is not present
 
@@ -42,15 +42,27 @@ Make sure you also have installed a .rar archive extractor like rar,unrar,7z.
 
 Assuming your data is also in the same 24:1 format in a .arff and compressed in .rar, this code should run fine.
 
-Run the preprocessing.ipynb notebook and examine any errors. Then, continue with presentation.ipynb.
+Run the preprocessing.ipynb notebook and examine any errors. Then, continue with analysis.ipynb.
 
+### Predictions
+
+You can generate a new predictor model with predictions.ipynb
+Open the notebook, read the comments, and run both blocks.
+
+To make predictions from a .csv file (already run through the preprocessing notebook), but with the target column removed,
+just run the following:
+
+    python3 predict.py dummy.csv model.pkl dummy_predictions.csv
+
+argments are input, model, output
 
 ## Files
 
  * Chronic_Kidney_Disease.rar -- Initial data set download
  * preprocessing.ipynb -- Jupyter notebook for cleaning and exploring data
- * presentation.ipynb -- Jupyter notebook containing analytical information
+ * analysis.ipynb -- Jupyter notebook containing analytical information
  * LICENSE -- Software license, go ahead and use it
  * arffToCsv.py -- File converter from github user haloboy777
  * predictions.ipynb -- Jupyter notebook for generating a prediction model
- * finalized_model.sav -- Python pickle of Naive Bayes Classifier
+ * model.pkl -- Python pickle of Naive Bayes Classifier
+ * predict.py -- Script that classifies people with or without CKD

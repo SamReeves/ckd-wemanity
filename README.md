@@ -22,7 +22,7 @@ https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease#
 
 This data set was made public in 2015, the result of a study done in Tamilnadu, India.  It contains 24 independent variables -- features of a patient's blood -- which we can use to indicate the dependent variable "class".  Class is a binary value which indicates that a patient does or does not have Chronic Kidney Disease.  There are 400 independent observations.
 
-This data contains null values, and it does not have standardized data types.  It is provided for free by University of California Irvine (whoo! go Aardvarks!) in a .rar archive, with all relevant information in .arff.
+This data contains null values, and it does not have standardized data types.  It is provided for free by University of California Irvine (whoo! go Anteaters!) in a .rar archive, with all relevant information in .arff.
 
 
 ## Usage Instructions

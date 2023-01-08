@@ -32,9 +32,17 @@ Start with the following, from the root directory:
     source venv/bin/activate
     pip install -r requirements.txt
 
+##### if CKD_clean.csv is present
+
+Enjoy presentation.ipynb
+
+##### if CKD_clean.csv is not present
+
 Make sure you also have installed a .rar archive extractor like rar,unrar,7z.
 
-To see the data exploration and cleaning process, you can view "preprocessing.ipynb".  For the more substantial study, proceed directly to "presentation.ipynb".
+Assuming your data is also in the same 24:1 format in a .arff and compressed in .rar, this code should run fine.
+
+Run the preprocessing.ipynb notebook and examine any errors. Then, continue with presentation.ipynb.
 
 
 ## Files

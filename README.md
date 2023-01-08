@@ -32,11 +32,11 @@ Start with the following, from the root directory:
     source venv/bin/activate
     pip install -r requirements.txt
 
-##### if CKD_clean.csv is present
+### if CKD_clean.csv is present
 
 Enjoy presentation.ipynb
 
-##### if CKD_clean.csv is not present
+### if CKD_clean.csv is not present
 
 Make sure you also have installed a .rar archive extractor like rar,unrar,7z.
 

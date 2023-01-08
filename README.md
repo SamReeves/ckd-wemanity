@@ -51,5 +51,4 @@ Run the preprocessing.ipynb notebook and examine any errors. Then, continue with
  * preprocessing.ipynb -- Jupyter notebook for cleaning and exploring data
  * presentation.ipynb -- Jupyter notebook containing analytical information
  * LICENSE -- Software license, go ahead and use it
- * ckdlib.py -- Helper functions for reproducing the analysis
  * arffToCsv.py -- File converter from github user haloboy777

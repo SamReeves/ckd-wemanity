@@ -40,7 +40,7 @@ Enjoy analysis.ipynb
 
 Make sure you also have installed a .rar archive extractor like rar,unrar,7z.
 
-Assuming your data is also in the same 22:1 format in a .arff and compressed in .rar, this code should run fine.
+Assuming your data is also in the same 24:1 format in a .arff and compressed in .rar, this code should run fine.
 
 Run the preprocessing.ipynb notebook and examine any errors. Then, continue with analysis.ipynb.
 
@@ -54,7 +54,7 @@ just run the following:
 
     python3 predict.py dummy.csv model.pkl dummy_predictions.csv
 
-argments are filenames input.csv, model.pkl, output.csv
+Argments are filenames... in Linux, everything is a file...
 
 ## Files
 
@@ -66,3 +66,7 @@ argments are filenames input.csv, model.pkl, output.csv
  * predictions.ipynb -- Jupyter notebook for generating a prediction model
  * model.pkl -- Python pickle of Naive Bayes Classifier
  * predict.py -- Script that classifies people with or without CKD
+ 
+ ## Notes
+ 
+ Thank you very much for the opportunity to take this test!

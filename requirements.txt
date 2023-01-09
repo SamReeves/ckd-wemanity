@@ -7,6 +7,7 @@ contourpy==1.0.6
 cycler==0.11.0
 debugpy==1.6.5
 decorator==5.1.1
+dill==0.3.6
 docopt==0.6.2
 entrypoints==0.4
 executing==1.2.0
@@ -21,6 +22,7 @@ jupyter-core==5.1.2
 kiwisolver==1.4.4
 matplotlib==3.6.2
 matplotlib-inline==0.1.6
+mlxtend==0.21.0
 nest-asyncio==1.5.6
 numpy==1.24.1
 packaging==22.0

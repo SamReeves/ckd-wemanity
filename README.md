@@ -40,7 +40,7 @@ Enjoy analysis.ipynb
 
 Make sure you also have installed a .rar archive extractor like rar,unrar,7z.
 
-Assuming your data is also in the same 24:1 format in a .arff and compressed in .rar, this code should run fine.
+Assuming your data is also in the same 22:1 format in a .arff and compressed in .rar, this code should run fine.
 
 Run the preprocessing.ipynb notebook and examine any errors. Then, continue with analysis.ipynb.
 
@@ -54,7 +54,7 @@ just run the following:
 
     python3 predict.py dummy.csv model.pkl dummy_predictions.csv
 
-argments are input, model, output
+argments are filenames input.csv, model.pkl, output.csv
 
 ## Files
 
